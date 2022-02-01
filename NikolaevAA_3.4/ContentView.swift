@@ -11,7 +11,7 @@ struct ContentView: View {
     
     @State private var currentValue = 0.0
     @State private var targetValue = Int.random(in: 0...100)
-
+    @State private var showingAlert = false
     
     private func computeScore() -> Int {
         let difference = abs(targetValue - lround(currentValue))
@@ -29,10 +29,12 @@ struct ContentView: View {
                     .opacity(Double(computeScore()) / 100)
                 Text("100")
             }.padding()
-            Button(action: {
-                print("\(computeScore())")
-            }) {
-                Text("проверить меня!")
+            Button("проверь меня!") {
+                showingAlert = true
+            }
+            .alert("количество очков:\n \(computeScore())", isPresented: $showingAlert)
+            {
+                Button("OK") { }
             }
             .padding(.vertical, 20.0)
             Button(action: {
