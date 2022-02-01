@@ -11,6 +11,7 @@
 		4E93D9D627A94B160016BBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E93D9D527A94B160016BBFE /* ContentView.swift */; };
 		4E93D9D827A94B170016BBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E93D9D727A94B170016BBFE /* Assets.xcassets */; };
 		4E93D9DB27A94B170016BBFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E93D9DA27A94B170016BBFE /* Preview Assets.xcassets */; };
+		4E93D9E227A94CEE0016BBFE /* SliderToUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E93D9E127A94CEE0016BBFE /* SliderToUIKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4E93D9D527A94B160016BBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E93D9D727A94B170016BBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E93D9DA27A94B170016BBFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E93D9E127A94CEE0016BBFE /* SliderToUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderToUIKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4E93D9D327A94B160016BBFE /* NikolaevAA_3_4App.swift */,
 				4E93D9D527A94B160016BBFE /* ContentView.swift */,
+				4E93D9E127A94CEE0016BBFE /* SliderToUIKitView.swift */,
 				4E93D9D727A94B170016BBFE /* Assets.xcassets */,
 				4E93D9D927A94B170016BBFE /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E93D9E227A94CEE0016BBFE /* SliderToUIKitView.swift in Sources */,
 				4E93D9D627A94B160016BBFE /* ContentView.swift in Sources */,
 				4E93D9D427A94B160016BBFE /* NikolaevAA_3_4App.swift in Sources */,
 			);
